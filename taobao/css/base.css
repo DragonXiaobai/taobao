@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*.left {*/
+    /*float: left;*/
+/*}*/
+.clear-float {
+    clear: both;
+}
+/*@font-face {*/
+    /*font-family: 'iconfont';*/
+    /*src: url('../fonts/iconfont.eot');*/
+    /*src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),*/
+    /*url('../fonts/iconfont.woff2') format('woff2'),*/
+    /*url('../fonts/iconfont.woff') format('woff'),*/
+    /*url('../fonts/iconfont.ttf') format('truetype'),*/
+    /*url('../fonts/iconfont.svg#iconfont') format('svg');*/
+/*}*/
+/*.iconfont {*/
+    /*font-family: "iconfont" !important;*/
+    /*font-size: 10px;*/
+    /*font-style: normal;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+body {
+    font-family: 微软雅黑;
+    background-color: #eee;
+    color: #3c3c3c;
+	min-width: 1300px;
+}
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+    /*cursor: pointer;*/
+}
+.head .iconfont span {
+    margin-left: 2px;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}
+.pg-header #login {
+    color: #f22e00;
+}
+.pg-header .head {
+    margin: 0 221.5px;
+    background-color: #eee;
+    font-size: 10px;
+    height: 29px;
+    /*overflow: hidden;*/
+}
+.pg-header .head ul {
+    cursor: pointer;
+}
+.pg-header .head a {
+    color: #3c3c3c;
+}
+.pg-header .head>a {
+    float: left;
+    padding: 7px;
+}
+.pg-header .head .nav_1 {
+    float: left;
+    padding: 8px;
+    position: relative;
+
+}
+.pg-header .head .nav_1 .menu {
+    height: 100%;
+}
+.pg-header .head .nav_1 span {
+    color: #3c3c3c;
+    cursor: initial;
+}
+
+
+
+.h-load {
+    position: absolute;
+    overflow: auto;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+}
+
+.head  .h-load li {
+    background-color: #fff;
+    /*display: none;*/
+    height: 25px;
+
+    line-height: 25px;
+    padding-left: 8px;
+    /*z-index: 9999;*/
+}
+.head .h-load li:hover {
+    background-color: #DDDDDD;
+}
+.head .h-load li a:hover {
+    color: #3c3c3c;
+}
+.pg-header .head #head-u1 {
+    left: 0;
+    top: 27px;
+    width: 232px;
+    /*display: none;*/
+}
+.pg-header .head #head-u2 {
+    right: 309px;
+    top: 27px;
+    width: 70px;
+}
+.pg-header .head #head-u3 {
+    right: 395px;
+    top: 27px;
+    width: 75px;
+}
+.pg-header .head #head-u4 {
+    right: 535px;
+    top: 27px;
+    width: 75px;
+}
+.pg-header .head #head-u5 {
+    right: 684px;
+    top: 27px;
+    width: 75px;
+}
+
+
+.pg-header .head .line {
+    float: right;
+    padding: 4px;
+}
+.pg-header .head #class:hover {
+    background-color: #eeeeee;
+    color: #ff4400;
+}
+.pg-header .head .nav_2 {
+    float: right;
+    padding: 7px;
+}
+.pg-header .head  #car {
+    padding: 5px;
+    float: right;
+}
+.pg-header .head  #car:hover{
+    background-color: #fff;
+}
+.pg-header .head  #car:hover a {
+    color: #ff4400;
+}
+.pg-header .head .font-color {
+    color: #ff4400;
+    margin-left: 0;
+}
+.pg-header .head .nav_1:hover {
+    background-color: #fff;
+
+}
+.pg-header .head>a:hover {
+    color: #ff4400;
+}
+.pg-header .head .nav_2:hover {
+    background-color: #fff;
+}
+.pg-header .head .nav_2:hover>li>a {
+    color: #ff4400;
+}
+/*头部广告*/
+.pg-header .adver {
+    background-color: #f40d4d;
+    height: 65px;
+
+}
+.pg-header .adver .head-banner {
+    width: 1100px;
+    margin: 0 auto;
+}
+.pg-header .adver .head-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*search part*/
+.pg-header .search {
+    height: 97px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+.search .se-box {
+    width: 1100px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+.search .se-box .logo{
+    display: inline-block;
+    width: 160px;
+    float: left;
+}
+.search .se-box .search-com {
+    position: relative;
+    width: 630px;
+
+    float: left;
+}
+.se-box .search-com .top-nav {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    font-size: 12px;
+}
+.se-box .top-nav span {
+    color: #ff4400;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.se-box .top-nav .style-color {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 1em;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    background-repeat: repeat-x;
+}
+.se-box .search-com .sear-box {
+    float: left;
+    width: 640px;
+    height: 50px;
+    margin: 20px 0 10px 100px;
+
+}
+
+.current-search {
+    position: fixed;
+    top: -20px;
+    left: 350px;
+    /*transform: translateX(-50%);*/
+    z-index: 9999;
+
+}
+
+.se-box .search-com .comm-box {
+    /*display: inline-block;*/
+    width: 554px;
+    height: 40px;
+    float: left;
+    border: 2px solid #ff4400;
+    position: relative;
+}
+.search-com .comm-box .ipt-search {
+    width: 500px;
+    height: 40px;
+    font-size: 11px;
+    padding: 0 30px;
+    border: 0;
+    outline: none;
+
+}
+.search-com .comm-box .fdj {
+    font-size: 25px;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+}
+.search-com .comm-box .zxj {
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.se-box .sear-box .search-sear {
+    display: block;
+    float: left;
+    cursor: pointer;
+    width: 50px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4400;
+}
+
+.search-com .sear-box .com-nav {
+    font-size: 12px;
+    margin: 8px 5px 0 0;
+}
+.search-com .sear-box .com-nav a {
+    color: #3c3c3c;
+}
+.se-box .sear-box .com-nav .font-color {
+    color: #ff4400;
+}
+.se-box .sear-box .com-nav a:hover {
+    color: #ff4400;
+}
+.search .se-box .erweima {
+    float: right;
+    margin-right: 80px;
+}
+.erweima .ewm-box {
+    position: relative;
+    width: 80px;
+    height: 90px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.erweima .ewm-box .close {
+    position: absolute;
+    top: -1px;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    border-right: 0;
+    color: #ddd;
+    cursor: pointer;
+}
+.erweima .ewm-box .m-title {
+    font-size: 12px;
+    color: #ff4400;
+
+}
+.erweima .ewm-box img {
+    margin-top: 5px;
+    width: 62px;
+}

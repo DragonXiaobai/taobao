@@ -1,0 +1,101 @@
+.pg-footer {
+    margin-top: 50px;
+    background-color: #fff;
+    /*position: relative;*/
+
+}
+.pg-footer .footbox {
+    margin: 0 auto;
+    width: 1100px;
+}
+.pg-footer .footbox .foot-hd {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.pg-footer .footbox  a {
+    font-size: 11px;
+    color: #6c6c6c;
+    margin-right: 2px;
+}
+.pg-footer .footbox .foot-ht span {
+    margin-right: 2px;
+    cursor: initial;
+    font-size: 11px;
+}
+.pg-footer .footbox a:hover {
+    color: #ff4400;
+}
+.pg-footer .foot-pic {
+    position: relative;
+}
+.pg-footer .foot-pic .police-logo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/foot-logo.jpg") no-repeat -860px 0;
+}
+.pg-footer .foot-pic .pilc-font {
+    margin-left: 28px;
+}
+.footbox .foot-ht p:first-child span:last-child {
+    margin-left: 80px;
+}
+.footbox .foot-pic-min {
+    margin-top: 10px;
+}
+.footbox .foot-pic-min .common {
+    margin-right: 20px;
+    display: inline-block;
+    background: url("../images/foot-logo.jpg") no-repeat;
+}
+.footbox .foot-pic-min .icon-m1 img {
+    padding-bottom: 8px;
+}
+.footbox .foot-pic-min .icon-m2 {
+    background-position: 0 0;
+    width: 36px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m3 {
+    background-position: -40px 0;
+    width: 36px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m4 {
+    background-position: -80px 0;
+    width: 50px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m5 {
+    background-position: -120px 0;
+    width: 83px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m6 img {
+    height: 50px;
+
+}
+.footbox .foot-pic-min .icon-m7 {
+    background-position: -650px 0;
+    width: 105px;
+    height: 40px;
+}
+
+.footbox .foot-pic-min .icon-m8 {
+    background-position: -345px 0;
+    width: 105px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m9 {
+    background-position: -760px 0;
+    width: 97px;
+    height: 40px;
+}
+.footbox .foot-pic-min .icon-m10 {
+    background-position: -885px 0;
+    width: 250px;
+    height: 40px;
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1751673",
+  "name": "练习",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14191047",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "15367",
+      "name": "下三角形",
+      "font_class": "xiasanjiaoxing",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "4472461",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "4472462",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "310758",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "1080332",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1236831",
+      "name": "相机",
+      "font_class": "05",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11763956",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "715273",
+      "name": "扳手",
+      "font_class": "build",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "887903",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6003699",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7486063",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}
